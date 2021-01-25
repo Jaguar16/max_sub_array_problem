@@ -78,9 +78,9 @@ if __name__ == '__main__':
         print(usage)
         exit(0)
     if sys.argv[1] == "clean":
-        print("Deleting all test cases...")
+        print("Suppression de tous les cas de test...")
         clean()
-        print("Done")
+        print("Fait")
         exit(0)
     if arg > 3:
         print("ERREUR : Nombre d'arguments invalide\n")
